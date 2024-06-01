@@ -1,0 +1,413 @@
+{
+    "Characters": 
+    [
+        {
+            "sprite": "",
+            "name": "Shelly",
+            "type": "maszyna zniszczenia",
+            "rarity": "zwykly",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Rosa",
+            "type": "czolg",
+            "rarity": "rzadki",
+            "range": "bliskodystansowy",
+            "year_was_added": 2019 
+        },
+        {
+            "sprite": "",
+            "name": "Poco",
+            "type": "wsparcie",
+            "rarity": "rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "El_primo",
+            "type": "czolg",
+            "rarity": "rzadki",
+            "range": "bliskodystansowy",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Brock",
+            "type": "strzelec wyborowy",
+            "rarity": "rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Bull",
+            "type": "czolg",
+            "rarity": "rzadki",
+            "range": "bliskodystansowy",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Colt",
+            "type": "maszyna zniszczenia",
+            "rarity": "rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Nita",
+            "type": "maszyna zniszczenia",
+            "rarity": "rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Jacky",
+            "type": "czolg",
+            "rarity": "super_rzadki",
+            "range": "bliskodystansowy",
+            "year_was_added": 2020
+        },
+        {
+            "sprite": "",
+            "name": "Carl",
+            "type": "maszyna zniszczenia",
+            "rarity": "super_rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2019
+        },
+        {
+            "sprite": "",
+            "name": "Penny",
+            "type": "altyleria",
+            "rarity": "super_rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2018
+        },
+        {
+            "sprite": "",
+            "name": "Darryl",
+            "type": "czolg",
+            "rarity": "super_rzadki",
+            "range": "bliskodystansowy",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Rico",
+            "type": "maszyna zniszczenia",
+            "rarity": "super_rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "8-Bit",
+            "type": "maszyna zniszczenia",
+            "rarity": "super_rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2019
+        },
+        {
+            "sprite": "",
+            "name": "Tick",
+            "type": "altyleria",
+            "rarity": "super_rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2019
+        },
+        {
+            "sprite": "",
+            "name": "Dynamike",
+            "type": "altyleria",
+            "rarity": "super_rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Jessie",
+            "type": "mistrz kontroli",
+            "rarity": "super_rzadki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Frank",
+            "type": "czolg",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Bo",
+            "type": "mistrz kontroli",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Piper",
+            "type": "strzelec wyborowy",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Pam",
+            "type": "wsparcie",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Bibi",
+            "type": "czolg",
+            "rarity": "epicki",
+            "range": "bliskodystansowy",
+            "year_was_added": 2019
+        },
+        {
+            "sprite": "",
+            "name": "Emz",
+            "type": "mistrz kontroli",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2019
+        },
+        {
+            "sprite": "",
+            "name": "Bea",
+            "type": "strzelec wyborowy",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2019
+        },
+        {
+            "sprite": "",
+            "name": "Nani",
+            "type": "strzelec wyborowy",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2020
+        },
+        {
+            "sprite": "",
+            "name": "Edgar",
+            "type": "zabojca",
+            "rarity": "epicki",
+            "range": "bliskodystansowy",
+            "year_was_added": 2020
+        },
+        {
+            "sprite": "",
+            "name": "Stu",
+            "type": "zabojca",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2021
+        },
+        {
+            "sprite": "",
+            "name": "Griff",
+            "type": "mistrz kontroli",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2021
+        },
+        {
+            "sprite": "",
+            "name": "Grom",
+            "type": "altyleria",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2021
+        },
+        {
+            "sprite": "",
+            "name": "Bonnie",
+            "type": "strzelec wyborowy",
+            "rarity": "epicki",
+            "range": "dystansowiec/bliskodystansowy",
+            "year_was_added": 2022
+        },
+        {
+            "sprite": "",
+            "name": "Gale",
+            "type": "mistrz kontroli",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2020
+        },
+        {
+            "sprite": "",
+            "name": "Lola",
+            "type": "maszyna zniszczenia",
+            "rarity": "epicki",
+            "range": "dystansowiec",
+            "year_was_added": 2021
+        },
+        {
+            "sprite": "",
+            "name": "Mortis",
+            "type": "zabojca",
+            "rarity": "mityczny",
+            "range": "bliskodystansowy",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Tara",
+            "type": "maszyna zniszczenia",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Gene",
+            "type": "mistrz kontroli",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2019
+        },
+        {
+            "sprite": "",
+            "name": "Max",
+            "type": "wsparcie",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2019
+        },
+        {
+            "sprite": "",
+            "name": "Pan_P",
+            "type": "mistrz kontroli",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2020
+        },
+        {
+            "sprite": "",
+            "name": "Kiełek",
+            "type": "altyleria",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2020
+        },
+        {
+            "sprite": "",
+            "name": "Bryon",
+            "type": "wsparcie",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2020
+        },
+        {
+            "sprite": "",
+            "name": "Ruffs",
+            "type": "wsparcie",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2021
+        },
+        {
+            "sprite": "",
+            "name": "Squeak",
+            "type": "mistrz kontroli",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2021
+        },
+        {
+            "sprite": "",
+            "name": "Kieł",
+            "type": "zabojca",
+            "rarity": "mityczny",
+            "range": "bliskodystansowy",
+            "year_was_added": 2022
+        },
+        {
+            "sprite": "",
+            "name": "Eve",
+            "type": "maszyna zniszczenia",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2022
+        },
+        {
+            "sprite": "",
+            "name": "Otis",
+            "type": "mistrz kontroli",
+            "rarity": "mityczny",
+            "range": "dystansowiec",
+            "year_was_added": 2022
+        },
+        {
+            "sprite": "",
+            "name": "Janet",
+            "type": "strzelec wyborowy",
+            "rarity": "mityczny",
+            "range": "dystansowiec/bliskodystansowy",
+            "year_was_added": 2022
+        },
+        {
+            "sprite": "",
+            "name": "Crow",
+            "type": "zabojca",
+            "rarity": "legendarny",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Spike",
+            "type": "maszyna zniszczenia",
+            "rarity": "legendarny",
+            "range": "dystansowiec",
+            "year_was_added": 2017
+        },
+        {
+            "sprite": "",
+            "name": "Leon",
+            "type": "zabojca",
+            "rarity": "legendarny",
+            "range": "dystansowiec",
+            "year_was_added": 2018
+        },
+        {
+            "sprite": "",
+            "name": "Amber",
+            "type": "mistrz kontroli",
+            "rarity": "legendarny",
+            "range": "dystansowiec",
+            "year_was_added": 2020
+        },
+        {
+            "sprite": "",
+            "name": "Surge",
+            "type": "maszyna zniszczenia",
+            "rarity": "legendarny",
+            "range": "dystansowiec",
+            "year_was_added": 2020
+        },
+        {
+            "sprite": "",
+            "name": "Sandy",
+            "type": "mistrz kontroli",
+            "rarity": "legendarny",
+            "range": "dystansowiec",
+            "year_was_added": 2019
+        }
+    ]
+}
