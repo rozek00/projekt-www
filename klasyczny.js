@@ -1,5 +1,6 @@
 let obj;
 let index_of_champion;
+let guessed = false;
 function getRandomInt(min, max) {
     min = Math.ceil(min); 
     max = Math.floor(max);
@@ -18,9 +19,9 @@ function arrayMaker()
 }
 function Guessing()
 {
-    let guessed = false;
     let Champion_name = document.getElementById('textInput').value;
     let option;
+    console.log(obj[index_of_champion].name);
     for(i=0;i<51;i++)
     {
         if(obj[i].name == Champion_name)
@@ -28,13 +29,14 @@ function Guessing()
                 option = obj[i];
             }
     }
-    if(Champion_name==obj[index_of_champion].name && option!=null)
+    if(Champion_name==obj[index_of_champion].name && option!=null && guessed==false)
         {
             guessed = true;
+            console.log(guessed);
             Display(option);
-            Guessed();
+            setTimeout(Guessed,1000);
         }
-    else if (option!=null) 
+    else if (option!=null && guessed==false) 
         {
            Display(option);
         }
@@ -45,9 +47,13 @@ function Display(option) {
     let li = document.createElement("li");
     li.className = "li";
     let name = document.createElement("div");
-    name.className = "name";
-    let type = document.createElement("div");
+    if (option.name == obj[index_of_champion].name) {
+        name.className = "name_corr";
+    } else {
+        name.className = "name_incorr";
+    }
 
+    let type = document.createElement("div");
     if (option.type == obj[index_of_champion].type) {
         type.className = "type_corr";
     } else {
@@ -97,7 +103,10 @@ function Display(option) {
 
 function Guessed()
 {
-
+    let userClicked = confirm("Gratulacje, zgadłeś!!!");
+    if (userClicked) {
+        window.location.href="glowne_menu.html"
+    }
 }
 function Init()
 {
@@ -114,35 +123,35 @@ document.addEventListener('DOMContentLoaded', function() {
             onUncheck();
         }
     });
+
     function onCheck() {
-        let div = document.getElementById("section");
+        let section = document.getElementById("menu");
         let show_menu = document.createElement('ul');
         show_menu.id = "show_menu";
         show_menu.className = "menu_shown"
-    
+
         let menu_el_1 = document.createElement('li');
         let menu_el_2 = document.createElement('li');
         menu_el_1.id = "sklep_id";
         menu_el_2.id = "galeria_id";
-    
+
         const menu_link_1 = document.createElement('a');
         const menu_link_2 = document.createElement('a');
         menu_link_1.href = 'sklep-strony.html';
         menu_link_2.href = 'galeria_zadymiarzy.html';
         menu_link_1.textContent = 'Sklep strony';
         menu_link_2.textContent = 'Galeria zadymiarzy';
-    
+
         menu_el_1.appendChild(menu_link_1);
         menu_el_2.appendChild(menu_link_2);
-    
+
         show_menu.appendChild(menu_el_1);
         show_menu.appendChild(menu_el_2);
-    
-        div.appendChild(show_menu);
+        section.appendChild(show_menu);
     }
-    
+
     function onUncheck() {
-        const div = document.getElementById("section");
+        const div = document.getElementById("menu");
         const ul = document.getElementById("show_menu");
         if (ul) {
             div.removeChild(ul);
